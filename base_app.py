@@ -79,7 +79,7 @@ def main():
 	"""Tweet Classifier App with Streamlit """
 	st. set_page_config(layout="wide")
 
-	tab1, tab2, tab3 = st.tabs(['Home','Current Project','Tweeter Classifier'])
+	tab1, tab2, tab3 = st.tabs(['Home','Current Project','Twitter Classifier'])
 	
 	with tab1:
 		add_bg_from_local('./resources/imgs/dashboard.png')
